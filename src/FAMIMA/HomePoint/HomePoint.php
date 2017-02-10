@@ -176,6 +176,7 @@ class HomePoint extends PluginBase {
 		@$flags |= 1 << Entity::DATA_FLAG_CAN_SHOW_NAMETAG;
 		@$flags |= 1 << Entity::DATA_FLAG_ALWAYS_SHOW_NAMETAG;
 		@$flags |= 1 << Entity::DATA_FLAG_IMMOBILE;
+
         
         $pk->metadata = [
 			Entity::DATA_FLAGS => [Entity::DATA_TYPE_LONG, $flags],
