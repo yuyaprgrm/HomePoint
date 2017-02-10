@@ -1,0 +1,11 @@
+# version : 絶対に変更しないでください
+cversion: "1.00"
+
+# 距離を表示させるか(多少重くなります)
+enable-visible-distance: true
+
+# 登録数制限 -1で無効です : 未実装
+max-register-count: -1 
+
+# ホームにテレポートできるようにするか : 未実装
+can-teleport-home: false

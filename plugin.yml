@@ -1,0 +1,12 @@
+name: HomePoint
+main: FAMIMA\HomePoint\HomePoint
+author: famima65536
+version: 1.00a
+api:
+ - 2.1.0
+ - 2.0.0
+ - 3.0.0
+commands:
+ homepoint:
+  description: "Plugin: HomePoint用コマンド"
+  usage: "/homepoint [add/delete/list] <args>"
